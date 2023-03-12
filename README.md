@@ -40,6 +40,6 @@ Crie uma função Lambda que se inscreve em uma fila SQS
 <h1>Padrões com servidor</h1>
 
 <h2>Amazon API Gateway (HTTP) para AWS Lambda</h2>
-Esse padrão cria um Amazon API Gateway (HTTP) e uma função do AWS Lambda.
+<p>Esse padrão cria um Amazon API Gateway (HTTP) e uma função do AWS Lambda.</p>
 <img src="padroes-com-servidor\1.PNG">
 ---
