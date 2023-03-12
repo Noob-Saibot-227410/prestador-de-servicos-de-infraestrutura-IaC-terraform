@@ -44,57 +44,47 @@
 <img src="padroes-com-servidor\1.PNG">
 ---
 
-<!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 
-<head>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
-</head>
+<div class="slider">
+  <div><img src="padroes-sem-servidor\1.PNG"></div>
+  <div><img src="padroes-sem-servidor\2.PNG"></div>
+  <div><img src="padroes-sem-servidor\3.PNG"></div>
+  <div><img src="padroes-sem-servidor\4.PNG"></div>
+  <div><img src="padroes-sem-servidor\5.PNG"></div>
+  <div><img src="padroes-sem-servidor\6.PNG"></div>
+  <div><img src="padroes-sem-servidor\7.PNG"></div>
+  <div><img src="padroes-sem-servidor\8.PNG"></div>
+</div>
 
-<body>
+<style>
+  .slider {
+    width: 100%;
+  }
+  .slick-slide {
+    margin: 0px 20px;
+  }
+  .slick-slide img {
+    width: 100%;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+</style>
 
-  <div class="slider">
-    <div><img src="padroes-sem-servidor\1.PNG"></div>
-    <div><img src="padroes-sem-servidor\2.PNG"></div>
-    <div><img src="padroes-sem-servidor\3.PNG"></div>
-    <div><img src="padroes-sem-servidor\4.PNG"></div>
-    <div><img src="padroes-sem-servidor\5.PNG"></div>
-    <div><img src="padroes-sem-servidor\6.PNG"></div>
-    <div><img src="padroes-sem-servidor\7.PNG"></div>
-    <div><img src="padroes-sem-servidor\8.PNG"></div>
-  </div>
-
-  <style>
-    .slider {
-      width: 100%;
-    }
-    .slick-slide {
-      margin: 0px 20px;
-    }
-    .slick-slide img {
-      width: 100%;
-    }
-    .slick-prev:before,
-    .slick-next:before {
-      color: black;
-    }
-  </style>
-
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('.slider').slick({
-        dots: true,
-        infinite: true,
-        speed: 500,
-        autoplay: true,
-        autoplaySpeed: 2000
-      });
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      autoplay: true,
+      autoplaySpeed: 2000
     });
-  </script>
-
-</body>
+  });
+</script>
 
 </html>
