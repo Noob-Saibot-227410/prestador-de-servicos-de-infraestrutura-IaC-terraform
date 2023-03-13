@@ -1,6 +1,10 @@
 # TerraFlow
 <p>Este repositório contém meus conhecimentos em Terraform para criar e gerenciar recursos na AWS, projetados para demonstrar meu conhecimento em Terraform para fins de recrutamento.</p>
 
+<p>Minha experiência em desenvolvimento de infraestrutura IAC com Terraform inclui a criação de diversas funções de código, como Amazon API Gateway para AWS Lambda, transmissões do Amazon DynamoDB para AWS Lambda, função e camadas Lambda, invocação de fluxos de trabalho do AWS Step Functions do AWS Lambda, notificações de bucket do Amazon S3 para AWS Lambda e filas Amazon SQS para AWS Lambda, entre outros.</p>
+
+<p>Além disso, possuo experiência em desenvolvimento de API HTTP do Amazon API Gateway para AWS Lambda para RDS Proxy, API Gateway para Lambda para DynamoDB, WebSocket API do API Gateway para SQS para AWS Lambda, S3 para Lambda para SES, SNS para SQS para Lambda para Firehose, e também em criação de regras EventBridge agendadas para Lambda, funções Lambda usando camadas Lambda, funções de passo do Lambda, acionamento de fluxo de trabalho do AWS Step Functions do AWS Lambda com log ativado, invocação direta de funções Lambda entre contas por meio do Step Functions, gatilhos de balde S3 que acionam funções Lambda e inscrição de funções Lambda em filas SQS, todos desenvolvidos utilizando o Terraform.</p>
+
 <img src="https://img.icons8.com/color/48/000000/terraform.png"/>
 
 <h1>Padrões sem servidor</h1>
