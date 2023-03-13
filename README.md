@@ -11,20 +11,6 @@
 
 <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/>
 
-<img src="https://img.icons8.com/color/48/000000/amazon-sqs.png"/>
-
-<img src="https://img.icons8.com/color/48/000000/amazon-s3.png"/>
-
-<img src="https://img.icons8.com/color/48/000000/http.png"/>
-
-<img src="https://img.icons8.com/color/48/000000/aws-lambda.png"/>
-
-<img src="https://img.icons8.com/color/48/000000/amazon-kinesis-firehose.png"/>
-
-<img src="https://img.icons8.com/color/48/000000/amazon-eventbridge.png"/>
-
-<img src="https://img.icons8.com/color/48/000000/aws-glue.png"/>
-
 <h1>Padrões sem servidor</h1>
 
 <h2>API HTTP do Amazon API Gateway para AWS Lambda para RDS Proxy</h2>
