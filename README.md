@@ -5,7 +5,25 @@
 
 <p>Além disso, possuo experiência em desenvolvimento de API HTTP do Amazon API Gateway para AWS Lambda para RDS Proxy, API Gateway para Lambda para DynamoDB, WebSocket API do API Gateway para SQS para AWS Lambda, S3 para Lambda para SES, SNS para SQS para Lambda para Firehose, e também em criação de regras EventBridge agendadas para Lambda, funções Lambda usando camadas Lambda, funções de passo do Lambda, acionamento de fluxo de trabalho do AWS Step Functions do AWS Lambda com log ativado, invocação direta de funções Lambda entre contas por meio do Step Functions, gatilhos de balde S3 que acionam funções Lambda e inscrição de funções Lambda em filas SQS, todos desenvolvidos utilizando o Terraform.</p>
 
-<img src="https://img.icons8.com/color/48/000000/terraform.png"/>
+<img src="https://img.icons8.com/color/48/000000/terraform.png"/>TERRFORM
+
+<img src="https://img.icons8.com/color/48/000000/amazon-web-services.png"/> AWS
+
+<img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/> VS CODE
+
+<img src="https://img.icons8.com/color/48/000000/amazon-sqs.png"/> SQS
+
+<img src="https://img.icons8.com/color/48/000000/amazon-s3.png"/> S3
+
+<img src="https://img.icons8.com/color/48/000000/http.png"/> HTTP
+
+<img src="https://img.icons8.com/color/48/000000/aws-lambda.png"/> Lambda
+
+<img src="https://img.icons8.com/color/48/000000/amazon-kinesis-firehose.png"/> Firehose
+
+<img src="https://img.icons8.com/color/48/000000/amazon-eventbridge.png"/> EventBridge
+
+<img src="https://img.icons8.com/color/48/000000/aws-glue.png"/> Glue
 
 <h1>Padrões sem servidor</h1>
 
