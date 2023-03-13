@@ -43,4 +43,26 @@
 <p>Esse padrão cria um Amazon API Gateway (HTTP) e uma função do AWS Lambda.</p>
 <img src="padroes-com-servidor\1.PNG">
 ---
-
+<h2>Transmissões do Amazon DynamoDB para AWS Lambda</h2>
+<p>Esse padrão cria uma tabela Amazon DynamoDB com streaming habilitado, função AWS Lambda e configuração de fonte de eventos do DynamoDB para a função Lambda.</p>
+<img src="padroes-com-servidor\2.PNG">
+---
+<h2>Regra EventBridge agendada para Lambda</h2>
+<p>Crie uma regra EventBridge agendada que invoque uma função Lambda</p>
+<img src="padroes-com-servidor\3.PNG">
+---
+<h2>Função Lambda e Camadas Lambda</h2>
+<p>Crie uma Função Lambda que tenha uma Camada Lambda adicionada a ela</p>
+<img src="padroes-com-servidor\4.PNG">
+---
+<h2>Notificações de bucket do Amazon S3 para AWS Lambda</h2>
+<p>Esse padrão cria um bucket do Amazon S3, função do AWS Lambda e configura notificações de eventos do bucket do S3 para acionar a função do Lambda.</p>
+<img src="padroes-com-servidor\5.PNG">
+---
+<h2>Amazon S3 com S3 Object Lambda (retorna miniaturas de imagens do S3)</h2>
+<p>Esse padrão cria um bucket S3, um S3 Access Point, um S3 Object Lambda Access Point e uma função Lambda.</p>
+<img src="padroes-com-servidor\6.PNG">
+---
+<h2>Fila Amazon SQS para AWS Lambda</h2>
+<p>Esse padrão cria uma fila do Amazon SQS, uma função do AWS Lambda e um fornecimento de eventos de configuração da fila para a função do Lambda.</p>
+<img src="padroes-com-servidor\7.PNG">
