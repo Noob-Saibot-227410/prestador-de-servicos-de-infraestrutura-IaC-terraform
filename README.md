@@ -1,4 +1,4 @@
-# TerraFlow! <img src="[imgs\1.PNG](https://drive.google.com/file/d/1i-0BB667QDypWsp_gsP8t_STI_AwLXMN/view?usp=share_link)">  
+# TerraFlow! <img src="https://drive.google.com/uc?id=1i-0BB667QDypWsp_gsP8t_STI_AwLXMN">  
 <p>Este repositório contém meus conhecimentos em Terraform para criar e gerenciar recursos na AWS, projetados para demonstrar meu conhecimento em Terraform para fins de recrutamento.</p>
 
 <p>Minha experiência em desenvolvimento de infraestrutura IAC com Terraform inclui a criação de diversas funções de código, como Amazon API Gateway para AWS Lambda, transmissões do Amazon DynamoDB para AWS Lambda, função e camadas Lambda, invocação de fluxos de trabalho do AWS Step Functions do AWS Lambda, notificações de bucket do Amazon S3 para AWS Lambda e filas Amazon SQS para AWS Lambda, entre outros.</p>
