@@ -1,5 +1,5 @@
 <div style="display:flex; align-items:center;">
-  <h1 style="margin-right: 20px;">TerraFlow!</h1>
+  <h1 style="margin-right: 20px;">TERRAFLOW!</h1>
   <img src="https://drive.google.com/uc?id=1i-0BB667QDypWsp_gsP8t_STI_AwLXMN" alt="Imagem de exemplo" width="100" height="100">
 </div>
 
