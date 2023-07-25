@@ -3,7 +3,7 @@
 ## Sobre Nós
 Na TerraFlow, somos especializados em fornecer soluções avançadas de Infraestrutura como Código (IaC) usando o Terraform para criar e gerenciar recursos na AWS. Nossa equipe é especializada em projetar e desenvolver diversos padrões sem servidor e com servidor para atender às necessidades específicas de negócios. Com ampla experiência em tecnologias nativas da nuvem, garantimos integração e automação perfeitas para sua infraestrutura em nuvem.
 
-![Logo da TerraFlow](https://drive.google.com/uc?id=1i-0BB667QDypWsp_gsP8t_STI_AwLXMN)
+![main-tf-tips](https://github.com/Noob-Saibot-227410/website-a-venda-template-loja-sapatos-roupas/assets/115899706/94cc5887-09af-4f12-8b51-b2c3c65a4d25)
 
 ## Serviços
 Nossa expertise abrange uma ampla gama de serviços projetados para potencializar o seu negócio com soluções escaláveis, eficientes e econômicas.
