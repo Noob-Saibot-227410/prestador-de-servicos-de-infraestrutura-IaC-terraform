@@ -3,6 +3,20 @@
 ## Sobre Nós
 Na TerraFlow, somos especializados em fornecer soluções avançadas de Infraestrutura como Código (IaC) usando o Terraform para criar e gerenciar recursos na AWS. Nossa equipe é especializada em projetar e desenvolver diversos padrões sem servidor e com servidor para atender às necessidades específicas de negócios. Com ampla experiência em tecnologias nativas da nuvem, garantimos integração e automação perfeitas para sua infraestrutura em nuvem.
 
+Para adquirir este projeto e alavancar seu negócio finalize sua compra, entre em contato: 
+
+<br>
+
+<div align="center">
+  <a href="mailto:devops.davi@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+  <a href="https://www.linkedin.com/in/davi-santos-cardoso-da-silva-b4678524a/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://linktr.ee/devops_davi" target="_blank"><img src="https://img.shields.io/badge/-Linktree-%23FF5722?style=for-the-badge" alt="Linktree"></a>
+  <a href="https://gitlab.com/Noob-Saibot-227410" target="_blank"><img src="https://img.shields.io/badge/-GitLab-%23FCA121?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"></a>
+  <a href="https://wa.me/5511976161682?text=Olá,%20estou%20entrando%20em%20contato%20através%20do%20GitHub." target="_blank"><img src="https://img.shields.io/badge/-WhatsApp-%232CA5E0?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
+</div>
+
+<br>
+
 ![main-tf-tips](https://github.com/Noob-Saibot-227410/website-a-venda-template-loja-sapatos-roupas/assets/115899706/94cc5887-09af-4f12-8b51-b2c3c65a4d25)
 
 ## Serviços
