@@ -1,80 +1,90 @@
-<div style="display:flex; align-items:center;">
-  <h1 style="margin-right: 20px;">TERRAFLOW!</h1>
-  <img src="https://drive.google.com/uc?id=1i-0BB667QDypWsp_gsP8t_STI_AwLXMN" alt="Imagem de exemplo" width="100" height="100">
-</div>
+**Bem-vindo à TerraFlow Soluções!**
 
-<br>
+## Sobre Nós
+Na TerraFlow, somos especializados em fornecer soluções avançadas de Infraestrutura como Código (IaC) usando o Terraform para criar e gerenciar recursos na AWS. Nossa equipe é especializada em projetar e desenvolver diversos padrões sem servidor e com servidor para atender às necessidades específicas de negócios. Com ampla experiência em tecnologias nativas da nuvem, garantimos integração e automação perfeitas para sua infraestrutura em nuvem.
 
-<p>Este repositório contém meus conhecimentos em Terraform para criar e gerenciar recursos na AWS, projetados para demonstrar meu conhecimento em Terraform para fins de recrutamento.</p>
+![Logo da TerraFlow](https://drive.google.com/uc?id=1i-0BB667QDypWsp_gsP8t_STI_AwLXMN)
 
-<p>Minha experiência em desenvolvimento de infraestrutura IAC com Terraform inclui a criação de diversas funções de código, como Amazon API Gateway para AWS Lambda, transmissões do Amazon DynamoDB para AWS Lambda, função e camadas Lambda, invocação de fluxos de trabalho do AWS Step Functions do AWS Lambda, notificações de bucket do Amazon S3 para AWS Lambda e filas Amazon SQS para AWS Lambda, entre outros.</p>
+## Serviços
+Nossa expertise abrange uma ampla gama de serviços projetados para potencializar o seu negócio com soluções escaláveis, eficientes e econômicas.
 
-<p>Além disso, possuo experiência em desenvolvimento de API HTTP do Amazon API Gateway para AWS Lambda para RDS Proxy, API Gateway para Lambda para DynamoDB, WebSocket API do API Gateway para SQS para AWS Lambda, S3 para Lambda para SES, SNS para SQS para Lambda para Firehose, e também em criação de regras EventBridge agendadas para Lambda, funções Lambda usando camadas Lambda, funções de passo do Lambda, acionamento de fluxo de trabalho do AWS Step Functions do AWS Lambda com log ativado, invocação direta de funções Lambda entre contas por meio do Step Functions, gatilhos de balde S3 que acionam funções Lambda e inscrição de funções Lambda em filas SQS, todos desenvolvidos utilizando o Terraform.</p>
+### Padrões Sem Servidor
 
-| <img src="https://img.icons8.com/color/48/000000/terraform.png"/> | <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/> | <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png"/> |
-|---|---|---|
+#### API HTTP com Amazon API Gateway e AWS Lambda para RDS Proxy
+Crie um endpoint de API HTTP que invoca uma função AWS Lambda para o RDS Proxy, garantindo acesso seguro e confiável ao banco de dados.
 
+![API Gateway para AWS Lambda para RDS Proxy](imgs/1.PNG)
 
-<h1>Padrões sem servidor</h1>
+#### API HTTP com Amazon API Gateway e AWS Lambda
+Crie uma API HTTP com Amazon API Gateway e uma função AWS Lambda para disponibilizar serviços para seus clientes.
 
-<h2>API HTTP do Amazon API Gateway para AWS Lambda para RDS Proxy</h2>
-<p>Endpoint de API HTTP que chama uma função do Lambda para o RDS Proxy.</p>
-<img src="imgs\1.PNG">
----
-<h2>API HTTP do Amazon API Gateway para AWS Lambda</h2>
-<p>Cria uma API HTTP do Amazon API Gateway e uma função AWS Lambda</p>
-<img src="imgs\2.PNG">
----
-<h2>API Gateway para Lambda para DynamoDB</h2>
-<p>Faça uma solicitação ao API Gateway que salva os dados no DynamoDB.</p>
-<img src="imgs\3.PNG">
----
-<h2>Regra EventBridge agendada para Lambda</h2>
-<p>Crie uma regra EventBridge agendada que invoque uma função Lambda</p>
-<img src="imgs\4.PNG">
----
-<h2>S3 para Lambda para SES</h2>
-<p>Crie uma função Lambda que envie e-mails via SES para eventos S3.</p>
-<img src="imgs\5.PNG">
----
-<h2>AWS S3 Trigger para fluxo de trabalho AWS Lambda para AWS Glue</h2>
-<p>Esse padrão cria um gatilho de balde s3 que aciona uma função Lambda (sempre que o arquivo chega). A função Lambda é usada para acionar um fluxo de trabalho do Glue com parâmetros de entrada, como chave de arquivo e nomes de balde. Todos os elementos abordados neste padrão são construídos usando o Terraform.</p>
-<img src="imgs\6.PNG">
----
-<h2>Invocar a função Lambda entre contas diretamente por meio do Step Functions</h2>
-<p>Crie um fluxo de trabalho do Step Functions que invoque a função Lambda entre contas</p>
-<img src="imgs\7.PNG">
----
-<h2>SQS para Lambda</h2>
-<p>Crie uma função Lambda que se inscreve em uma fila SQS</p>
-<img src="imgs\8.PNG">
+![API Gateway para AWS Lambda](imgs/2.PNG)
 
-<h1>Padrões com servidor</h1>
+#### API Gateway para Lambda para DynamoDB
+Realize uma solicitação ao API Gateway que salva os dados no DynamoDB.
 
-<h2>Amazon API Gateway (HTTP) para AWS Lambda</h2>
-<p>Esse padrão cria um Amazon API Gateway (HTTP) e uma função do AWS Lambda.</p>
-<img src="imgs-servidor\1.PNG">
----
-<h2>Transmissões do Amazon DynamoDB para AWS Lambda</h2>
-<p>Esse padrão cria uma tabela Amazon DynamoDB com streaming habilitado, função AWS Lambda e configuração de fonte de eventos do DynamoDB para a função Lambda.</p>
-<img src="imgs-servidor\2.PNG">
----
-<h2>Regra EventBridge agendada para Lambda</h2>
-<p>Crie uma regra EventBridge agendada que invoque uma função Lambda</p>
-<img src="imgs-servidor\3.PNG">
----
-<h2>Função Lambda e Camadas Lambda</h2>
-<p>Crie uma Função Lambda que tenha uma Camada Lambda adicionada a ela</p>
-<img src="imgs-servidor\4.PNG">
----
-<h2>Notificações de bucket do Amazon S3 para AWS Lambda</h2>
-<p>Esse padrão cria um bucket do Amazon S3, função do AWS Lambda e configura notificações de eventos do bucket do S3 para acionar a função do Lambda.</p>
-<img src="imgs-servidor\5.PNG">
----
-<h2>Amazon S3 com S3 Object Lambda (retorna miniaturas de imagens do S3)</h2>
-<p>Esse padrão cria um bucket S3, um S3 Access Point, um S3 Object Lambda Access Point e uma função Lambda.</p>
-<img src="imgs-servidor\6.PNG">
----
-<h2>Fila Amazon SQS para AWS Lambda</h2>
-<p>Esse padrão cria uma fila do Amazon SQS, uma função do AWS Lambda e um fornecimento de eventos de configuração da fila para a função do Lambda.</p>
-<img src="imgs-servidor\7.PNG">
+![API Gateway para Lambda para DynamoDB](imgs/3.PNG)
+
+#### Regra Agendada do EventBridge para Lambda
+Crie uma regra agendada no EventBridge para invocar uma função Lambda.
+
+![Regra Agendada do EventBridge para Lambda](imgs/4.PNG)
+
+#### S3 para Lambda para SES
+Crie uma função Lambda que envie e-mails via SES para eventos do S3.
+
+![S3 para Lambda para SES](imgs/5.PNG)
+
+#### AWS S3 Trigger para AWS Lambda para AWS Glue
+Esse padrão cria um gatilho de balde S3 que aciona uma função Lambda sempre que um arquivo chega. A função Lambda é usada para acionar um fluxo de trabalho do Glue com parâmetros de entrada, como chave de arquivo e nomes de balde. Todos os elementos abordados neste padrão são construídos usando o Terraform.
+
+![AWS S3 Trigger para AWS Lambda para AWS Glue](imgs/6.PNG)
+
+#### Invocar a função Lambda entre contas diretamente por meio do Step Functions
+Crie um fluxo de trabalho do Step Functions que invoque a função Lambda entre contas.
+
+![Invocar a função Lambda entre contas diretamente por meio do Step Functions](imgs/7.PNG)
+
+#### SQS para Lambda
+Crie uma função Lambda que se inscreve em uma fila SQS.
+
+![SQS para Lambda](imgs/8.PNG)
+
+### Padrões com Servidor
+
+#### Amazon API Gateway (HTTP) para AWS Lambda
+Este padrão cria um Amazon API Gateway (HTTP) e uma função AWS Lambda.
+
+![Amazon API Gateway (HTTP) para AWS Lambda](imgs-servidor/1.PNG)
+
+#### Transmissões do Amazon DynamoDB para AWS Lambda
+Este padrão cria uma tabela Amazon DynamoDB com streaming habilitado, uma função AWS Lambda e configuração de fonte de eventos do DynamoDB para a função Lambda.
+
+![Transmissões do Amazon DynamoDB para AWS Lambda](imgs-servidor/2.PNG)
+
+#### Regra Agendada do EventBridge para Lambda
+Crie uma regra agendada no EventBridge para invocar uma função Lambda.
+
+![Regra Agendada do EventBridge para Lambda](imgs-servidor/3.PNG)
+
+#### Função Lambda e Camadas Lambda
+Crie uma Função Lambda que tenha uma Camada Lambda adicionada a ela.
+
+![Função Lambda e Camadas Lambda](imgs-servidor/4.PNG)
+
+#### Notificações de bucket do Amazon S3 para AWS Lambda
+Este padrão cria um bucket do Amazon S3, uma função AWS Lambda e configura notificações de eventos do bucket do S3 para acionar a função Lambda.
+
+![Notificações de bucket do Amazon S3 para AWS Lambda](imgs-servidor/5.PNG)
+
+#### Amazon S3 com S3 Object Lambda (retorna miniaturas de imagens do S3)
+Este padrão cria um bucket S3, um S3 Access Point, um S3 Object Lambda Access Point e uma função AWS Lambda.
+
+![Amazon S3 com S3 Object Lambda](imgs-servidor/6.PNG)
+
+#### Fila Amazon SQS para AWS Lambda
+Este padrão cria uma fila do Amazon SQS, uma função AWS Lambda e configura um fornecimento de eventos da fila para a função Lambda.
+
+![Fila Amazon SQS para AWS Lambda](imgs-servidor/7.PNG)
+
+Se você estiver interessado em soluções personalizadas para o seu negócio, não hesite em entrar em contato conosco! Nossa equipe de especialistas está pronta para ajudar a impulsionar o seu sucesso com a nuvem AWS e o poder do Terraform.
